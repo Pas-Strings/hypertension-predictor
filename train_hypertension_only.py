@@ -11,9 +11,6 @@ df = pd.read_csv("hypertension_only.csv")
 
 features = ['age', 'bmi', 'systolic_bp', 'diastolic_bp', 'cholesterol']
 
-# ============================================
-# MODEL 1: Binary Classification (Hypertensive or Not)
-# ============================================
 print("\n" + "="*50)
 print("MODEL 1: Hypertension Detection")
 print("="*50)
